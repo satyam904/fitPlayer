@@ -1,0 +1,42 @@
+.playlist-modal-wrapper {
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
+.add-playlist-form {
+  background-color: var(--theme-color);
+  margin: 20% auto;
+  max-width: 40rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.add-playlist-input input {
+  width: 85%;
+}
+
+.add-playlist-form .close-playlist-modal-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+}
+
+.add-playlist-btn-icon {
+  font-size: 2rem;
+  background-color: var(--theme-color);
+  border: none;
+}
+
+@media screen and (max-width: 600px) {
+  .add-playlist-form {
+    margin: 50% auto;
+    max-width: 30rem;
+  }
+}

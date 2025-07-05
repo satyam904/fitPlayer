@@ -1,0 +1,35 @@
+.logo {
+  max-width: 35px;
+}
+
+nav.nav-bar {
+  background-color: var(--theme-color);
+}
+
+nav .left-nav {
+  margin-left: 1rem;
+}
+
+nav .right-nav {
+  margin-right: 0;
+}
+
+.nav-icons {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.ham-menu-icon {
+  display: none;
+}
+
+.user {
+  position: relative;
+}
+
+@media screen and (max-width: 600px) {
+  .ham-menu-icon {
+    display: block;
+    font-size: 2rem;
+  }
+}

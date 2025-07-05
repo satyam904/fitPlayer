@@ -1,0 +1,42 @@
+.sidebar-menu {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 1250px) {
+  .sidebar-menu {
+    flex-direction: column;
+  }
+
+  .side-menu-name {
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  aside.active-sidebar {
+    background-color: var(--theme-color);
+    position: fixed;
+    height: 100vh;
+    width: 35%;
+  }
+
+  .inactive-sidebar {
+    display: none;
+  }
+
+  .drop-shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    width: 100%;
+  }
+}

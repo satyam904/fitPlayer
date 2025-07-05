@@ -1,0 +1,16 @@
+.drop-down-list {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  position: absolute;
+  top: 2.5rem;
+  right: -1rem;
+}
+
+ul.drop-down-list li {
+  display: block;
+  margin: 0;
+}
+
+.drop-down-list li:hover {
+  background-color: var(--shadow-color);
+}

@@ -1,0 +1,146 @@
+@import url("https://colorant-ui.netlify.app/CSS/main.css");
+:root {
+  --primary-color: #ef6236;
+}
+
+.dark-mode {
+  --text-color: #fff;
+  --theme-color: #333333;
+  --shadow-color: #1e1e1e;
+  --sidebar-shadow: #000;
+  --chip-active-bg-color: #fff;
+  --chip-active-text-color: #000;
+  --card-bg-color: #000;
+  --card-border-color: #252525;
+  --popup-menu-bg-color: #333333;
+
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+
+.light-mode {
+  --text-color: #333333;
+  --theme-color: #f9f9f9;
+  --shadow-color: #ededed;
+  --sidebar-shadow: #ccc;
+  --chip-active-bg-color: #000;
+  --chip-active-text-color: #fff;
+  --card-bg-color: #fff;
+  --card-border-color: #d3d3d3;
+  --popup-menu-bg-color: #dbdbdb;
+
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+
+.text-color {
+  color: var(--text-color);
+}
+
+.shadow {
+  box-shadow: 0px 0px 10px var(--shadow-color);
+}
+
+.main-min-height {
+  min-height: calc(100vh - 5.2rem);
+}
+
+.avoid-text-highlight {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: -moz-none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+/* Buttons */
+.btn-radius {
+  border-radius: 20px;
+}
+
+.primary-solid-btn:hover {
+  background-color: #e26139;
+}
+
+.trash-btn-icon {
+  border: none;
+  background-color: transparent;
+  margin-left: auto;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+/* Grid Page Layout */
+.grid-page-layout {
+  grid-template-columns: 15% 1fr 1fr 1fr;
+}
+
+.aside-container {
+  box-shadow: 0px 0px 2px var(--sidebar-shadow);
+}
+
+/* inputs */
+
+.input-box {
+  border-radius: 5px;
+  border: 2px solid var(--primary-color);
+  font-size: 1.1rem;
+}
+
+.input-box:focus {
+  outline: none;
+}
+
+/* Auth */
+.auth-form {
+  background-color: var(--card-bg-color);
+  min-width: 25rem;
+  border: 1px solid var(--card-border-color);
+}
+
+.auth-input {
+  width: 100%;
+}
+
+.auth-form .btn {
+  display: block;
+  width: 100%;
+  padding: 0.4rem 0.8rem;
+}
+
+/* Font weight utility classes */
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+/* Cursor */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+button[disabled] {
+  cursor: not-allowed;
+}
+
+/* Border radius */
+.top-radius-5 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.bottom-radius-5 {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

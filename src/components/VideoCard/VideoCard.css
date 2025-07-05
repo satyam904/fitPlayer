@@ -1,0 +1,33 @@
+.video-card {
+  max-width: 30rem;
+  background-color: var(--card-bg-color);
+  transition: transform 0.2s;
+}
+
+.video-card:hover {
+  -ms-transform: scale(1.1); /* IE */
+  -webkit-transform: scale(1.1); /* Safari */
+  transform: scale(1.1); /* Chrome and others */
+}
+
+.vcard-footer {
+  border-top: 1px solid var(--shadow-color);
+}
+
+.creator-avatar {
+  border: 2px solid var(--primary-color);
+}
+
+.vcard-menu {
+  margin-left: auto;
+  position: relative;
+}
+
+.more-icon {
+  font-size: 1.4rem;
+}
+
+.more-icon:hover {
+  background-color: var(--shadow-color);
+  border-radius: 50%;
+}

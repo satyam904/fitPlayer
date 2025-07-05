@@ -1,0 +1,8 @@
+.hero {
+  flex-direction: column;
+  margin-top: 10rem;
+}
+
+.hero-logo {
+  max-width: 40px;
+}

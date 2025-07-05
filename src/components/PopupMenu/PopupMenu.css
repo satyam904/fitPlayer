@@ -1,0 +1,15 @@
+.popup-menu {
+  position: absolute;
+  width: max-content;
+  top: -7rem;
+  right: 2.5rem;
+  background-color: var(--popup-menu-bg-color);
+}
+
+.menu-list {
+  background-color: var(--card-bg-color);
+}
+
+.menu-list:hover {
+  background-color: var(--primary-color);
+}

@@ -1,0 +1,28 @@
+.playlist-card {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  min-width: 20rem;
+}
+
+.playlist-card-img-overlay {
+  background-color: var(--primary-color);
+  min-height: 15rem;
+  position: relative;
+}
+
+.playlist-overlay-text {
+  position: absolute;
+  flex-direction: column;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 40%;
+}
+
+.playlist-icon {
+  font-size: 1.4rem;
+}
+
+.playlist-overlay-text span {
+  color: #fff;
+}

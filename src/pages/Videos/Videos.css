@@ -1,0 +1,16 @@
+.grid-minmax-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 3fr));
+  gap: 2rem;
+  place-items: center;
+}
+
+.chip-section {
+  -ms-overflow-style: none; /* For IE and Edge */
+  scrollbar-width: none; /* For Firefox */
+  overflow-x: scroll;
+}
+
+.chip-section::-webkit-scrollbar {
+  display: none;
+}

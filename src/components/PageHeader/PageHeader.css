@@ -1,0 +1,9 @@
+.page-header {
+  background-color: var(--card-bg-color);
+  border: 1px solid var(--card-border-color);
+  border-left: 5px solid var(--primary-color);
+}
+
+.page-header .btn {
+  margin-left: auto;
+}
