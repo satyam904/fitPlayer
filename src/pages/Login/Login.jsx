@@ -21,14 +21,14 @@ const loginFormDetails = [
 ];
 
 const initialFormData = {
-  email: "",
+  email:"",
   password: "",
   rememberMe: false,
 };
 
 const testCredentials = {
-  email: "reachout.amansingh@gmail.com",
-  password: "amansingh",
+  email: "satyam@gmail.com",
+  password: "satyam",
   rememberMe: true,
 };
 
